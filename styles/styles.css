@@ -13,6 +13,9 @@ body {
 /* The text color is white */
 .text{
   color: white;
+  font-family: monospace;
+  font-size: 20px;
+
 }
 
 /* The card title color is white */
@@ -23,6 +26,8 @@ body {
 /* The card text color is white */
 .card-text{
   color: white;
+  font-family: monospace;
+  font-size: 20px;
 }
 
 /* The color class sets the text color to white */
@@ -192,7 +197,7 @@ body {
   z-index: 99;
   border: none;
   outline: none;
-  background-image: radial-gradient(rgb(143, 20, 45), black);
+  background-image: radial-gradient(rgb(163, 28, 28), rgb(0, 0, 0));
   color: white;
   cursor: pointer;
   padding: 15px;
