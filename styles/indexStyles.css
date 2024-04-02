@@ -1,0 +1,94 @@
+/* Styling for the entire webpage */
+body {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/The_SCP_universe.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Styling for the main header */
+.Header{
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 40px;
+}
+
+/* Styling for the secondary header */
+.Header2{
+  margin-left: 41.5%;
+  color: white;
+  font-size: 25px;
+}
+
+/* Styling for the container */
+.container {
+  color: white;
+  font-size: 22px;
+  margin-top: 5%;
+}
+
+/* Styling for the navigation bar */
+#navcolor{
+  background-color: #141414; 
+}
+
+/* Styling for the navigation items */
+.nav-item{
+  color:rgb(255, 255, 255);
+}
+
+/* Styling for the navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styling for the navigation link on hover */
+.nav-item.nav-link:hover {
+  color: #3d4853;
+}
+
+/* Styling for the buttons */
+.btns {
+  display: flex;
+  gap: 10px;
+  margin-left: 700px;
+}
+
+/* Styling for the buttons */
+.btns .btn {
+  border-color: #ffffff !important;
+}
+
+/* Styling for the buttons on hover */
+.btns .btn:hover {
+  background-color: #ffffff !important;
+  border-color: #000000 !important; 
+  color: #000000 !important; 
+}
+
+/* Styling for the second set of buttons */
+.btns2 {
+  display: flex;
+  gap: 10px;
+  margin-left: 850px;
+}
+
+/* Styling for the second set of buttons */
+.btns2 .btn {
+  border-color: #ffffff !important; 
+}
+
+/* Styling for the second set of buttons on hover */
+.btns2 .btn:hover {
+  background-color: #3d4853 !important;
+  border-color: #000000 !important;
+  color: #000000 !important; 
+}
+
+/* Styling for the footer */
+.footer-index{
+  color: white;
+}

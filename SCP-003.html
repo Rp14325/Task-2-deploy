@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--Meta tag with title and stylesheet link-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SCP-003</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+
+  <body>
+    <!--Inside body tag, used navigation bar setup from bootstrap website "getboostrap.com"-->
+    <nav class="navbar navbar-expand-lg navbar-danger" style="padding-left: 10px;" id="navcolor">
+        <a class="navbar-brand nav-item nav-link" href="index.html"><strong>𝚂𝙲𝙿-𝙵𝙾𝚄𝙽𝙳𝙰𝚃𝙸𝙾𝙽</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Navigation bar links-->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="SCP-002.html"><strong>𝚂𝙲𝙿-002</strong></a>
+                <a class="nav-item nav-link active" href="SCP-002.html" style="background-color: #141414; border: none; border-radius: 0; position: relative;">
+                  <strong style="color: #da1f1f; font-family: 'Arial';">𝚂𝙲𝙿-003</strong>
+                  <div style="height: 2px; background-color: white; width: 100%; position: absolute; bottom: -1px; left: 0;"></div>
+                </a>
+                <!--Nav bar links-->                           <!--Custom "SCP" font-->
+                <a class="nav-item nav-link" href="SCP-004.html"><strong>𝚂𝙲𝙿-004</strong></a>
+                <a class="nav-item nav-link" href="SCP-005.html"><strong>𝚂𝙲𝙿-005</strong></a>
+                <a class="nav-item nav-link" href="SCP-006.html"><stong>𝚂𝙲𝙿-006</stong></a>
+                
+                 <!--Button created for the login and sign in bar located top right. It also has some javascript in them-->
+                <div class="btns">
+                  <button class="btn btn-outline-light my-2 my-sm-0 bg text-light" type="submit" onclick="showWarning(this)">Login</button>
+                  <button class="btn btn-outline-light my-2 my-sm-0 bg text-light" type="submit" onclick="showWarning(this)">Sign Up</button>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+    <!--Container class for the heading and paragraph each have there own class which are linked to most other paragraphs in webpage-->
+    <div class="container mt-4">
+      <div class="card">
+          <div class="card-body p-3 mb-2 bg-light text-dark">
+            <h1 class="card-title text-center"><b>Item #: </b>SCP-003</h1>
+              <!--Bootstrap way to add css tags straight into html without creating a seperate css file-->
+            <h2 class="card-subtitle mb-2 text-danger text-center"><b>Object Class: </b>Euclid</h2>
+            <!--Image used here, didn't use the bootstrap way to change it's width, height. Used the usual way of editing it with a seprate css file-->
+            <img src="/Bootsrap-Wepage-SCP-main/images/SCP Art_ Scp-003 - Biological Motherboard by GamingHedgehog on DeviantArt.jpg" class="photo5" alt="SCP-002 Image">
+            <h3 class="card-title">Special Containment Procedures:</h3>
+            <p class="card-text">SCP-003 is to be maintained at a constant temperature of no less than 35°C and ideally kept above 100°C. No living multicellular organisms of Category IV or higher complexity may be allowed to come into contact with SCP-003.</p>
+            <div class="text">
+              <!--Similar to SCP-002 all div for color is there, but some have seprate class for color, due to some such reasons-->
+            <p>In event of total power failure, if SCP-003-1 begins to increase its mass, assigned personnel must engage in skin contact with SCP-003-1. Ideally, personnel may use their body heat to return SCP-003-1 to above the critical temperature; however, skin contact must be maintained even in event of SCP-003 reaching activation temperature, lasting at minimum until SCP-003-1 advances fully to its second growth stage.</p>
+            <p>Personnel who enter SCP-003's containment area must first be examined for body parasites of Category IV or higher complexity, and sterilized if such organisms are present. All personnel who have come in physical contact with SCP-003-1 are to immediately report for sterilization afterwards.</p>
+            <p>SCP-003-1 must not be removed from SCP-003-2 except in case of emergency procedures detailed above. Any significant change in SCP-003-2's rune activity (including pattern, frequency, or color) should be reported within three (3) hours of occurrence. Cessation of rune activity must be reported immediately. SCP-003-2 must be supplied with power via the source designated Generator 003-IX at all times.</p>
+            <h3>Description:</h3>
+            <p>SCP-003 consists of two related components of separate origin, referred to as SCP-003-1 and SCP-003-2.</p>
+            <p>SCP-003-1 appears to be composed of chitin, hair, and nails of unknown biology, arranged in a configuration similar to that of a computer motherboard. Testing reveals SCP-003-1 to predate earliest known circuit boards by a factor of thousands of years. SCP-003-1 is considered sentient but not actively dangerous except under certain conditions.</p>
+            <p>SCP-003-1 was found on a stone tablet, SCP-003-2, on which it currently resides. The runes on SCP-003-2 are not part of any known language, and emit pale, flickering light patterns.</p>
+            <p>SCP-003-2 is controlled by a (non-biological) internal computer, the contents of which are mostly inaccessible without risk of damaging SCP-003-2. SCP-003-2 is capable of controlled emissions of radiation, including heat, light, and anomalous radiation types. SCP-003-2 contains an internal power source of an anomalous nature, which appears to have been losing power since several centuries before discovery.</p>
+            <p>It is considered probable that SCP-003-2 was created for the purpose of containing SCP-003-1. Partially interpreted data recovered from SCP-003-2 may refer to a past and/or potential future LK-class restructuring event caused by SCP-003-1.</p>
+            <p>SCP-003 was located by remote viewing team SRV-04 Beta. It appears possible that SRV-04 Beta was deliberately contacted by SCP-003-2. Other organizations have also been alerted to SCP-003's existence, possibly by similar means. Despite this activity, SCP-003-2 does not appear to be sentient, based on its lack of reaction to M03-Gloria analysis and procedures.</p>
+            <!--Similar to the other 5 webpages "p class=text used to change all colors and font to the same, instead of doing it indivual "bg-light"-->
+            <p>When SCP-003 drops below the temperature of 35°C, both components react.</p>
+            <p>First, SCP-003-1 enters a growth state characterized by an exponential increase in mass. This growth state consists of two stages. In both stages, SCP-003-1 partially fuels its growth by converting matter around it, starting with any surrounding inorganic material, including atmospheric elements, then nonliving organic material, including cells of dead skin, hair, chitin, enamel, keratin, and other biological materials.</p>
+            <p>The first stage is always the same. SCP-003-1 will first increase its mass, then take a form similar in shape to an ophiuroid (brittle star) of fifteen meters in diameter (including what appears to be a central processor of three meters in diameter). It will form sensory organs that appear to scan its surrounding environment, and will partially convert the area around it to an unidentified anomalous substance (SCP-003-2 seems immune from conversion).</p>
+            <p>The second stage describes a growth alteration which occurs when SCP-003 comes into contact with living organic material; SCP-003 appears to "template" itself off of the organic material, and will attempt communication with organisms that match its initial "template" or "templates".</p>
+            <p>In its second stage, SCP-003-1 may pause, slow or change its growth, and will also convert inorganic and nonliving organic elements into functionally similar structures while anomalously altering their physical makeup.</p>
+            <p>While growth is consistent in the first stage, in the second stage SCP-003-1's growth rate is diminished by 20-90% so long as SCP-003-1 remains in contact with living organic material. The percentage is determined by the complexity of the organism(s) in contact with SCP-003-1; SCP-003-1 appears to devote a large amount of processing power to analysis of living organic material.</p>
+            <p>During each of SCP-003-1's growth stages, SCP-003-2 releases bursts of radiation that temporarily inhibit SCP-003-1's growth, or reverse this growth when the temperature of SCP-003-1 rises above 100°C. Similar radiation emissions have been replicated or recorded via other anomalous means.</p>
+            <p>SCP-003-1's biology has been the subject of extensive study. Significant elements have been identified similar to SCP-███, SCP-1512, and SCP-2756, the latter two of which have no further confirmed connection with SCP-003-1 and no known connection with each other, and none of which are fully understood (technically, even less understood than SCP-003, thanks to the extensive cross-disciplinary research on the SCP-003 objects). To date, no convincing analysis has been put forward which satisfactorily explains SCP-003-1's connection to these SCP objects or others, nor its connection to modern technology beyond appearance (and potential mimicry via unknown mechanism).</p>
+            <h4>Addendum 003-01:</h4>
+            <p>Acting on information gathered from linguistic analysis of SCP-003-2's runes and comparative data analysis, Research Team M03-Gloria has managed to establish a link between SCP-003 and [DATA EXPUNGED] for analysis of functions. SCP-003-1 must now be considered sentient, and is to be kept a minimum of 1 km from [DATA EXPUNGED] and the resulting "by-product" at all times.</p>
+            <h4>Addendum 003-02:</h4>
+            <p>SCP-003-2's power loss has been exacerbated by the procedures performed by M03-Gloria. On orders of O5-10, M03-Gloria will continue procedures.</p>
+            <h4>Addendum 003-03:</h4>
+            <p>During M03-Gloria procedures, SCP-003-1 doubled its mass and began rapid structural growth. Temperature was immediately returned to 100°C. Growth and mass increase of SCP-003-1 continued for 9 minutes and 6 seconds, at which time a sustained radiation spike was produced by SCP-003-2. In response, SCP-003-1 returned to its normal state in 3 minutes and 39 seconds. New growth dissolved into a dusty residue which was collected for analysis. Both SCP-003-1 and SCP-003-2 ceased all detectable activity. SCP-003-2 did not resume activity until connected to external power source. SCP-003-2's runes glowed uniformly gray and did not resume normal activity for three (3) hours. SCP-003-2 no longer appears to be able to maintain containment area at a temperature above 35°C without external power supplied by Generators 003-III through IX.</p>
+            <h4>Addendum 003-04:</h4>
+            <p>The procedure detailed in Addendum 003-03 was repeated, and SCP-003-1 again entered a growth state. After 10 minutes and 13 seconds, SCP-003-2 once again produced a sustained radiation spike. SCP-003-1's growth stopped for 36 seconds, then resumed at its previous pace.</p>
+            <p>On quadrupling its mass, SCP-003-1 formed a coherent outer shell and body. After appearing to scan its environment and partially converting its environment, SCP-003-1 then breached containment, entering the observation gallery where nine members of M03-Gloria were present. On physical contact with team members, SCP-003-1 encompassed them in rapidly-grown appendages and stopped growth for 15 minutes. SCP-003-1 then resumed growth, and rearranged the component parts of the center of its form to the shape of a three-meter-tall female humanoid, with peripheral "tentacles" shifting to extrude primarily from SCP-003-1's newly formed "hair" and spine. SCP-003-1 then produced rudimentary vocalizations in an apparent initial attempt to communicate with researchers. [DATA EXPUNGED]</p>
+            <p>An unknown individual approached the compromised containment area in company of a full squad of agents. The individual claimed to be acting on orders of O5-10 and attempted communication with SCP-003-1. [DATA EXPUNGED]</p>
+            <p>Following this incident, Agent Jackson of M03-Gloria successfully restored power to SCP-003-2 and activated backup generators to return the temperature to 100°C. SCP-003-1 returned to its normal state in 21 minutes and 7 seconds, and was successfully re-contained without incident.</p>
+            <p>All nine members of M03-Gloria affected by SCP-003-1 were afterwards found to be physically unharmed, with no residual effects besides psychological trauma. The converted materials of SCP-003's former containment area did not dissolve and are now under analysis.</p>
+            <h4>Addendum 003-05:</h4>
+            <p>In light of the previous incident, O5-10 was removed from the O5 Council by joint decision of O5-██, O5-██, and O5-██. M03-Gloria procedures have been indefinitely suspended.</p>
+            </div>
+            
+          </div>
+      </div>
+  </div>
+  <!--Button to take you top of page, similar to other webpages-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <!--Footer added on the bottom of the page, for copyrighted issue if it was a real website-->
+  <footer class="footer">
+    <p>&copy; 2024 SCP-FOUNDATION. All rights reserved.</p>
+  </footer>
+    <!-- Include Bootstrap JS and jQuery (if needed) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/Bootsrap-Wepage-SCP-main/javascript/javascriptscp.js"></script>
+</body>
+</html>

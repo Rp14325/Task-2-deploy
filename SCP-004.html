@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--Meta tags with title and css link-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SCP-004</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+
+<body>
+   <!--Inside body tag, used navigation bar setup from bootstrap website "getboostrap.com"-->
+  <nav class="navbar navbar-expand-lg navbar-danger" style="padding-left: 10px;" id="navcolor">
+    <a class="navbar-brand nav-item nav-link" href="index.html"><strong>𝚂𝙲𝙿-𝙵𝙾𝚄𝙽𝙳𝙰𝚃𝙸𝙾𝙽</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <!--Navigation bar links-->
+        <a class="nav-item nav-link" href="SCP-002.html"><strong>𝚂𝙲𝙿-002</strong></a>
+        <a class="nav-item nav-link" href="SCP-003.html"><strong>𝚂𝙲𝙿-003</strong></a>
+        <a class="nav-item nav-link active" href="SCP-002.html" style="background-color: #141414; border: none; border-radius: 0; position: relative;">
+          <strong style="color: #da1f1f; font-family: 'Arial';">𝚂𝙲𝙿-004</strong>
+          <div style="height: 2px; background-color: white; width: 100%; position: absolute; bottom: -1px; left: 0;"></div>
+      </a>
+        <!--Nav bar links-->                           <!--Custom "SCP" font-->
+        <a class="nav-item nav-link" href="SCP-005.html"><strong>𝚂𝙲𝙿-005</strong></a>
+        <a class="nav-item nav-link" href="SCP-006.html"><strong>𝚂𝙲𝙿-006</strong></a>
+
+        <div class="btns">
+            <!--Button created for the login and sign in bar located top right. It also has some javascript in them-->
+          <button class="btn btn-outline-light my-2 my-sm-0 bg text-light" type="submit" onclick="showWarning(this)">Login</button>
+          <button class="btn btn-outline-light my-2 my-sm-0 bg text-light" type="submit" onclick="showWarning(this)">Sign Up</button>
+        </div>
+        
+      </div>
+    </div>
+  </nav>
+  <div class="container mt-4">
+     <!--Container class for the heading and paragraph each have there own class which are linked to most other paragraphs in webpage-->
+     <!--All color of the paragraph falls under class "card" but due to such reasons one off paragraphs don't work with the div class so it has seperate class-->
+    <div class="card">
+        <div class="card-body p-3 mb-2 bg-light text-dark">
+          <h1 class="card-title text-center"><b>Item #: </b>SCP-004</h1>
+          <h2 class="card-subtitle mb-2 text-danger text-center"><b>Object Class: </b>Euclid</h2>
+          <h3 class="card-title">Special Containment Procedures:</h3>
+          <div class="text">
+          When handling items SCP-004-2 through SCP-004-13, proper procedure is vital. The items are not permitted to be moved off-site unless accompanied by two Level 4 security personnel. Under no circumstances should any other component of SCP-004 be taken through SCP-004-1. The effects of doing so are as yet unknown, and the current cost of experimentation makes further research impractical. Should any of the objects contained within SCP-004-1 breach containment, or the facility be breached, the keys must be brought inside and the door closed prior to activation of Site 62’s on-site warhead. Unauthorized removal of keys from the testing area is grounds for immediate termination.</p>
+          <p>Level 1 clearance is required for basic access to SCP-004-1; Level 4 clearance is required for use of SCP-004-2 to -13.</p>
+          <h3>Description:</h3>
+          <p>SCP-004 consists of an old wooden barn door (SCP-004-1) and a set of twelve rusted steel keys (SCP-004-2 through SCP-004-13). The door itself is the entrance to an abandoned factory in [DATA EXPUNGED].</p>
+          <!--Image used here, didn't use the bootstrap way to change it's width, height. Used the usual way of editing it with a seprate css file-->
+          <!--Word warpped to fit-->
+          <p><img src="/Bootsrap-Wepage-SCP-main/images/SCP004_door.jpg" class="photo4"></p>
+          <h4>Chronological History</h4>
+          <p><b>07/02/1949:</b> A group of three juveniles trespassing on federal property near ██████████ find the door. According to their testimony, they found a set of rusted keys in an iron lockbox and determined what door the keys unlock. The juveniles are taken into custody after they contact Sheriff █████████████████ when one of their friends (SCP-004-CAS01) goes missing.</p>
+          <p><b>07/03/1949:</b> Local authorities find the severed right hand of SCP-004-CAS01 eight kilometers from SCP-004-1. Other parts of SCP-004-CAS01's body are found scattered as far as 32 km from the factory. Under interrogation, the apprehended juveniles tell authorities that upon opening the door with one of the keys, SCP-004-CAS01 was torn into several pieces, each of which disappeared. At this point, the SCP Foundation takes over the investigation.</p>
+          <p><b>07/04/1949:</b> SCP Agent █████ obtains the keys from the local authorities to begin testing. Tests show that SCP-004-2 through SCP-004-13 all fit into a single lock on the large barred door. 12 Class D personnel are assigned to test the effects of the door. Of the twelve test subjects each trying a different key to enter the room, only two survive. Opening the door with any key except SCP-004-7 or SCP-004-12 caused the test subjects to be torn apart in multiple directions; however, no dismembered parts were found until later. At the time of writing, only two parts of each subject have been recovered (with the exception of the subject using SCP-004-█, whose pieces were scattered in close proximity). The others have, for all intents and purposes, vanished from existence.</p>
+          <p>Of the two surviving subjects, only one (having used SCP-004-7) returned unharmed. The other came back in a near-catatonic state, able only to remove himself from the room and then collapse on the floor, and had to be restrained to prevent him from gouging out his eyes (see Appendix A: Mental Health Effects of SCP-004). The subject using SCP-004-7 said that he had entered a large room, impossibly big for the size of the attached building. After his exit, SCP-004-1 was propped open and an armed squad of Level 3 personnel entered. The size of the room is impossible to measure and the door frame and the individuals in the room are the only part of the room that can be felt or illuminated.</p>
+          <p><b>07/16/1949:</b> The juvenile suspects and Sheriff █████████████████ are terminated.</p>
+          <p><b>08/02/1949:</b> █████████████████ is declared a hazardous area "due to unexploded ordnance" and fences erected in order to prevent civilian ingress. Tests to determine safety of exposure to environment behind SCP-004-1 begin.</p>
+          <p><b>12/01/1950:</b> Space-time anomalies resulting from exposure to SCP-004 are confirmed. Testing is suspended until further notice.</p>
+          <p><b>07/02/19██:</b> The unaccounted-for remains of SCP-004-CAS01 appear unexpectedly outside SCP-004-1. Despite being killed decades before, the remains of SCP-004-CAS01 are not decomposed in any manner and are still warm to the touch. Blood remains uncoagulated. The remains are remanded for testing.</p>
+          <p><b>07/04/19██:</b> The unaccounted-for remains of one of the twelve (12) original test subjects appear in similar manner to those of SCP-004-CAS01. The remains have been designated SCP-004-CAS02. Records suggest that both SCP-004-CAS01 and CAS02 used SCP-004-██.</p>
+          <p><b>03/21/1999:</b> With the massive proliferation of nuclear weapons and World War III only ██ years away, construction has begun on a site inside SCP-004-1. The site is to stock supplies for ███████ person-days.</p>
+          <p>04/21/1999: █████████████████ has ordered the site inside SCP-004-1 to be expanded to include emergency storage for all mobile SCP-███ specimens and a ██-petabyte database for the storage of all SCP data. The facility is now referred to as Site-62.</p>
+          <p><b>09/25/2000:</b> Site-62 is operational. Labs and containment units are complete and can contain the most dangerous specimens. Backup of the SCP database has begun.</p>
+          <p><b>01/25/2001:</b> Due to time anomalies (see “Space-Time Anomalies” below), all personnel working at Site-62 are now required to reside on-site permanently. Families of personnel are to be informed that loved ones perished in an industrial accident. Cloned bodies have been prepared for funeral.</p>
+          <p><b>08/14/2003:</b> Massive power outage across Northeast United States and through Canada. Due to the initial failure of multiple SCP generators, Site-62 was without power for fifty-three (53) minutes. During those fifty-three (53) minutes, those on site were completely without any source of light. They reported "sensing" creatures and people, although no abnormal entities could be seen or felt. Selected facility personnel were allowed to read ████████████ (Appendix A) and said the creatures "sensed" were of humanoid size but otherwise similar to the massive green creature described.</p>
+          <h4>Space-Time Anomalies</h4>
+          <p>SCP-004 seems to propagate spatiotemporal anomalies. Personnel leaving the facility report losing time. Those who have been in the site for weeks insist that they had only been in the facility for several days, and records of work completed and supplies consumed support their claims. Other temporal anomalies involve SCP-004-2 through -13, especially the reappearance of SCP-004-CAS01 and SCP-004-CAS02 exactly ██ years after using SCP-004-██. ████████████████████ has been assigned to investigate all aspects of these time anomalies. Spatial anomalies include the impossibly large dimensions of the area opened by SCP-004-7. Similarly, the 2003 blackout incident suggests that there exists an alternate plane of existence within the same space that Site-62 occupies.</p>
+          <h4>Additional Notes</h4>
+          <p>Testing on SCP-004 reveals that ten of the keys open SCP-004-1 on a dimension where the laws of physics and topology are significantly different than those of our home dimension. Test subjects meeting these hostile conditions are torn apart, their body parts deposited in various locations, only three of which have been verified to be on Earth. Material deposited at two of these points appears immediately; material deposited at the third appears exactly ██ years into the future. The other seven locations are currently unknown.</p>
+          <p>Current testing focuses on two avenues of research. The first is finding ways to survive SCP-004’s hostile topologies. The second [DATA EXPUNGED] suggest that SCP-004-2 through -13 may open doors other than SCP-004-1.</p>
+          <h4>Appendix A: Mental Health Effects of SCP-004-12</h4>
+          <p>All Class D personnel using SCP-004-12 return in a catatonic state, unable to speak. Some may have enough energy left to try to claw out their eyes. Of the 16 subjects, only 4 have survived. Only one has regained speech, following long-term psychotherapy. He was able to tell the psychiatrist that he saw a massive green creature, so large that much of its body extended beyond his field of view. He reported innate fear and sudden recognition, “as if it were something buried deep in [his] primal fears,” and forced implantation of “incomprehensible” memories. Subject displays acute anterograde and retrograde amnesia.</p>
+          <h4>Appendix B: Additional Information</h4>
+          <p><b>Item #:</b> SCP-004-14 SCP-004-14</p>
+          <p><b>Date of Discovery:</b> 09/02/1950</p>
+          <p><b>Origin of Object:</b> Object was discovered elsewhere in factory area, in the previously undiscovered manager's office.</p>
+          <p><b>Description:</b> Object appears as a large, unvarnished wooden box. The box may be unlocked by the "safe" key, SCP-004-7, as well as five of the "unsafe" keys (see Document SCP-004-1).</p>
+          <p>Upon unlocking SCP-004-14 with SCP-004-7, the box opens automatically on hinges. The volume of the space inside is precisely five times greater than the outer dimensions imply. Items placed within while the lid remains open do not affect the weight or any other properties of the box. When the lid is closed and locked, however, all items inside vanish irretrievably. Personnel locked inside the box are also irretrievable, although losing personnel in this fashion appears to affect significantly the dreams experienced by [DATA EXPUNGED].</p>
+        </div>
+        </div>
+    </div>
+</div>
+<!--Button to take you top of page, similar to other webpages-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--Footer added on the bottom of the page, for copyrighted issue if it was a real website-->
+<footer class="footer">
+  <p>&copy; 2024 SCP-FOUNDATION. All rights reserved.</p>
+</footer>
+    <!-- Include Bootstrap JS and jQuery (if needed) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/Bootsrap-Wepage-SCP-main/javascript/javascriptscp.js"></script>
+</body>
+</html>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
