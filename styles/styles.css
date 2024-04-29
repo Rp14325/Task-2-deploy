@@ -208,3 +208,12 @@ body {
 .footer{
   color: white;
 }
+
+@media (max-width: 600px) {
+  /* Styles for small screens */
+}
+@media (max-width: 1024px) {
+  /* Styles for tablets */
+}
+
+

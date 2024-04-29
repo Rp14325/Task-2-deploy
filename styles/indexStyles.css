@@ -92,3 +92,75 @@ body {
 .footer-index{
   color: white;
 }
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-button, .signup-button {
+  width: 50%; /* Adjust as needed */
+}
+
+.JsonHeader{
+  text-align: center;
+  color: white;
+
+}
+
+/* =================================================================================================*/
+
+/* Json styles down below */
+
+
+
+/* Style for the main heading (h1) */
+h1 {
+  color: white;
+  text-align: center;
+}
+
+/* Styling for each data display div */
+#dataDisplay div {
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 20px;
+  background-color: #141414;
+}
+
+/* Styling for the fetch button */
+#fetchButton {
+  background-color: #141414;
+  color: white;
+  border: 2px solid white;
+  font-size: 17px;
+}
+
+/* Styling for buttons within the data display */
+#dataDisplay button {
+  background-color: #141414;
+  color: white;
+  border: 2px solid white;
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+/* Hover effect for the fetch button */
+#fetchButton:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  margin-right: 10px;
+}
+
+/* Hover effect for the read button */
+#dataDisplay button.read:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
