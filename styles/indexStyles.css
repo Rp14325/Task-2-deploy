@@ -132,6 +132,7 @@ h1 {
   font-family: monospace;
   font-size: 20px;
   background-color: #141414;
+  margin-left: 5px;
 }
 
 /* Styling for the fetch button */
@@ -140,6 +141,7 @@ h1 {
   color: white;
   border: 2px solid white;
   font-size: 17px;
+  margin-left: 5px;
 }
 
 /* Styling for buttons within the data display */
@@ -149,6 +151,7 @@ h1 {
   border: 2px solid white;
   margin-top: 5px;
   font-size: 17px;
+  margin-left: 5px;
 }
 
 /* Hover effect for the fetch button */

@@ -92,7 +92,7 @@ function displayData(data) {
 
         // Create a button for text-to-speech
         const speechButton = document.createElement('button');
-        speechButton.textContent = "Read";
+        speechButton.textContent = "Read/Stop";
 
         // Set up the text to be spoken
         const textToSpeak = item.summary;
