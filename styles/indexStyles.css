@@ -162,7 +162,7 @@ h1 {
 }
 
 /* Hover effect for the read button */
-#dataDisplay button.read:hover {
+#dataDisplay button:hover {
   background-color: white;
   color: rgb(0, 0, 0);
 }

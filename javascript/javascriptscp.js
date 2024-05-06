@@ -73,10 +73,6 @@ document.getElementById("fetchButton").addEventListener('click', () => {
         .catch(error => console.error('Error:', error));
 });
 
-/**
- * Displays fetched data on webpage.
- * @param {Array} data - An array of data items.
- */
 function displayData(data) {
     const displayArea = document.getElementById("dataDisplay");
     
@@ -87,15 +83,17 @@ function displayData(data) {
 		const div = document.createElement("div");
 		const content = `<strong>Subject: </strong> ${item.subject}
             <br><strong>Class: </strong> ${item.class}
-            <br><strong>Summary: </strong> ${item.summary}
-            <br>`;
+            <br><strong>Description: </strong> ${item.description}
+            <br><strong>containment: </strong> ${item.containment}
+            <br>`
+
 
         // Create a button for text-to-speech
         const speechButton = document.createElement('button');
         speechButton.textContent = "Read/Stop";
 
         // Set up the text to be spoken
-        const textToSpeak = item.summary;
+        const textToSpeak = item.description;
         speechButton.addEventListener('click', () => { speakText(textToSpeak) });
 
         // Append content and button to the display area
